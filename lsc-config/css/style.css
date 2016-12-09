@@ -1,0 +1,94 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  color: #34495e;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 22px;
+  overflow: auto;
+}
+
+#inputhdr {
+  margin: 10px;
+}
+
+#pcLstDiv {
+	padding-bottom: 5px;
+}
+
+.vislabel {
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+}
+
+.marker-arrowhead {
+  display: none;
+}
+
+.link-tools {
+  display: none;
+}
+
+p, h2, h3 {
+  margin: 5px;
+}
+
+#com10Msg {
+  display: none;
+  margin-left: 20px;
+}
+
+#disp, hr {
+  margin: 0;
+  padding: 0;
+  clear: both;
+	overflow: auto;
+}
+
+.fa {
+  font-size: 14px;
+}
+
+#pcTabsDiv {
+	margin-left: 40px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+#pcTabsDiv li {
+	display: inline-block;
+	margin: 0 2px;
+	padding: 2px 8px;
+	background: #ccc;
+  font-size: 1.5em;
+}
+
+.tabTitle {
+  display: inline-block;
+  padding-right: 4px;
+  cursor: pointer;
+}
+.tabClose {
+  font-size: 1em;
+  color: #888;
+  cursor: pointer;
+}
+.tabClose:hover {
+  color: #f66;
+}
+
+#pcTabsDiv {
+  color: #000;
+  text-decoration: none;
+}
+
+#pcTabsDiv .active {
+  background: #eee;
+}
+
+#pcLstDiv {
+  padding: 10px;
+  background: #eee;
+}
