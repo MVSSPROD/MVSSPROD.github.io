@@ -3,6 +3,7 @@
 
 
 // JS: Using this to store the global LSC states as the drawing is based on the DOM state in Nadim's implementation
+// Test
 var lscState = [];
 
 
