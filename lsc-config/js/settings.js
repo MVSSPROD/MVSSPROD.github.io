@@ -78,7 +78,8 @@ var settings = {
           'VsIPL/Slt',
           'VsTS/E',
           'VsIF',
-          'VsIFP'
+          'VsIFP',
+          'VsMeasure'
         ]
       }
     };
